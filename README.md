@@ -1,5 +1,4 @@
-### 이 프로젝트는 bootstrapped 과 
-[Create React App](https://github.com/facebook/create-react-app)으로 제작 하였습니다.
+### 이 프로젝트는 bootstrapped 과 [Create React App](https://github.com/facebook/create-react-app)으로 제작 하였습니다.
 
 ## 실행 방법
 
@@ -9,8 +8,11 @@
 ## 작업 코멘트
 
 현재 재직중인 회사에서는 아직 리액트를 도입하지 않았기 때문에
+
 리액트를 활용하여 작업 할 기회가 도통 없어서 아쉬움이 컸었는데
+
 이번 과제를 기회로 처음 리액트를 공부 할때의 기억을 되살리며 재밌게 작업 할 수 있었습니다.
+
 아직은 어려운 부분들도 있었지만 그만큼 재미도, 성취도 큰 작업이였습니다.
 
 
