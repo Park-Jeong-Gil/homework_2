@@ -1,0 +1,109 @@
+@import "../../../node_modules/react-bootstrap-toggle/dist/bootstrap2-toggle.css";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&display=swap&subset=korean');
+
+#root {
+  background-color: #000;
+  font-family: 'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic', arial,sans-serif ;
+
+  .joinForm {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    > Form {
+      width: 410px;
+      height: 818px;
+      background: url("../images/iPhoneXr_Mockup.png") no-repeat #fff;
+      background-position: center;
+      background-size: 100%;
+      overflow: hidden;
+      padding: 90px 55px;
+
+      legend{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .hiddenLabel {display: none}
+
+      label.form-label{
+        font-weight: 500;
+        margin-bottom: 0
+      }
+
+      .form-row {
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .col-4 {
+          flex: 0 0 33%;
+          max-width: 30%;
+          margin-left: auto;
+          margin-right: 2px;
+        }
+
+        .form-group {
+          width: 100%;
+          margin-bottom: 0;
+
+          .btn-group-toggle{
+            width: 100%;
+            .btn-primary{opacity: 0.95; font-size: 15px;}
+            .btn-primary.active{opacity: 1}
+          }
+
+          div.toggle{
+            width: 88px !important;
+            height: 38px !important;
+            border: 1px solid #e2e2e2;
+            border-radius: 5px;
+
+            .toggle-group{
+                .btn-success{
+                  .toggleText{padding-right: 14px;}
+                }
+
+                .btn-default{
+                  .toggleText{
+                    color:#6c757d !important;
+                    padding-left: 14px;
+                  }
+                }
+
+                .btn-info{
+                  background-color: #fff;
+                  width: 40px;
+                  height: 38px;
+                  border: 1px solid #e2e2e2;
+                  margin-top: 1px;
+                }
+
+                .toggleText{
+                  font-size: 85%;
+                  font-weight: 400;
+                  margin: 0 auto;
+                }
+
+            }//toggle-group
+          }//toggle
+        }//form-group
+
+        .btn-warning{
+          width: 100%;
+          font-weight: 500;
+        }
+
+        .submitButton{
+          font-weight: 600;
+          font-size: 16px;
+          padding: 10px 0;
+          margin-top: 1.5rem;
+        }
+
+      }//form-row
+    }//Form
+  }//joinForm
+}//#root
